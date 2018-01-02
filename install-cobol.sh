@@ -15,7 +15,8 @@ sudo apt-get install open-cobol
 #copy cobol compiler to local bin for setup script verification sudo cp /usr/bin/cobc /usr/local/bin/
 
 #Run the setup script 
-cd ~/provision-cobol-dev-ubuntu ./setup
+cd ~/provision-cobol-dev-ubuntu
+sudo ./setup
 #copy cobc to the gnu-cobol map
 sudo mkdir -p ~/.cobol/gnu-cobol-1.1/cobc
 sudo cp /usr/local/bin/cobc ~/.cobol/gnu-cobol-1.1/cobc
