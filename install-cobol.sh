@@ -23,3 +23,5 @@ cp /usr/local/bin/cobc ~/.cobol/gnu-cobol-1.1/cobc
 
 #example compilation COBOL files
 #cobc hello_world.cbl
+echo 'installation complete'
+echo 'example: cobc hello_world.cbl'
